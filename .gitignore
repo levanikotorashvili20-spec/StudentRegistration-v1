@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+Debug/
+Release/
+StudentR.*/
+*.user
+*.obj
+*.ilk
+*.pdb
+*.exp
+*.tlog
+*.log
+
+# Programs (the exe goes to Releases, sqlite3.exe is downloaded from sqlite.org)
+*.exe
+
+# Databases: too large for the repository, geo.db goes to Releases
+data/
